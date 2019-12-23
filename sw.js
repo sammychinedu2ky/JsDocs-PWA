@@ -1,5 +1,5 @@
 let CACHE =
-{name:'javasiptd'} 
+{name:'javasiptdd'} 
 /*self.addEventListener('install', function(e) {
   self.skipWaiting();
  e.waitUntil(

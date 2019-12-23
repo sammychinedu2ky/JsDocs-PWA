@@ -292,7 +292,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Update UI notify the user they can add to home screen]
   console.log('rat')
   if(prompt()){
-    showInstallPromotion();
+    e.prompt();
     if('serviceWorker' in navigator){
       navigator.serviceWorker.register('./sw.js')
       .catch(err=>console.log('An error occured'));
