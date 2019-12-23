@@ -293,15 +293,16 @@ window.addEventListener('beforeinstallprompt', (e) => {
   console.log('rat')
   if(prompt()){
     showInstallPromotion();
-  }
- 
-});
-
     if('serviceWorker' in navigator){
       navigator.serviceWorker.register('./sw.js')
       .catch(err=>console.log('An error occured'));
 
     }
+  }
+ 
+});
+
+   
   </script>
 </body>
 </html>
