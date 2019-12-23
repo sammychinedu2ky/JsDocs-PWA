@@ -290,9 +290,10 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
   // Update UI notify the user they can add to home screen]
-  console.log('rat')
+  
   if(prompt()){
     e.prompt();
+    console.log('rat')
     if('serviceWorker' in navigator){
       navigator.serviceWorker.register('./sw.js')
       .catch(err=>console.log('An error occured'));
