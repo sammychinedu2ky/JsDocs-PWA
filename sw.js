@@ -1,5 +1,5 @@
 let CACHE =
-{name:'javasriptdoc'} 
+{name:'javasriptdocs'} 
 /*self.addEventListener('install', function(e) {
   self.skipWaiting();
  e.waitUntil(
