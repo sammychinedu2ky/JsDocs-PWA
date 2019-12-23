@@ -2,7 +2,7 @@
     "name": "JsDocumentation",
     "short_name": "JsDocs",
     "theme_color": "#00aaff",
-    "background_color": "#ff00ff",
+    "background_color": "#fff",
     "display": "standalone",
     "icons": [
       {

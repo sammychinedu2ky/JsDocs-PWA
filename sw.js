@@ -1,5 +1,5 @@
 let CACHE =
-{name:'javasriptdoczz'} 
+{name:'javasri'} 
 /*self.addEventListener('install', function(e) {
   self.skipWaiting();
  e.waitUntil(
@@ -69,4 +69,12 @@ self.addEventListener('fetch', function(e) {
   );
 });
 
-
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+  // Update UI notify the user they can add to home screen
+  if(prompt()){
+    showInstallPromotion();
+  }
+ 
+});
