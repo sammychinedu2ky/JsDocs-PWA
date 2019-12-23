@@ -1,5 +1,5 @@
 let CACHE =
-{name:'javasri'} 
+{name:'javasipt'} 
 /*self.addEventListener('install', function(e) {
   self.skipWaiting();
  e.waitUntil(
@@ -17,21 +17,22 @@ self.addEventListener('install', async event => {
   self.skipWaiting();
   try {
     let cache = await caches.open(CACHE.name);
-    console.log( cache)
+    
    cache.addAll([
-       './index.html',
-       './index.js',
-      './style.css',
-      './images\icons\icon-72x72.png',
-      './images\icons\icon-96x96.png',
-      './images\icons\icon-128x128.png',
-      './images\icons\icon-144x144.png',
-      './images\icons\icon-152x152.png',
-      './images\icons\icon-192x192.png',
-      './images\icons\icon-384x384.png',
-      './images\icons\icon-512x512.png'
+       '/index.html',
+       '/index.js',
+      '/style.css',
+      '/images\icons\icon-72x72.png',
+      '/images\icons\icon-96x96.png',
+      '/images\icons\icon-128x128.png',
+      '/images\icons\icon-144x144.png',
+      '/images\icons\icon-152x152.png',
+      '/images\icons\icon-192x192.png',
+      '/images\icons\icon-384x384.png',
+      '/images\icons\icon-512x512.png'
       
     ])
+    console.log( cache)
   }
   catch (err) {
     console.error("An error occured", err)
@@ -69,12 +70,4 @@ self.addEventListener('fetch', function(e) {
   );
 });
 
-/*window.addEventListener('beforeinstallprompt', (e) => {
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
-  // Update UI notify the user they can add to home screen
-  if(prompt()){
-    showInstallPromotion();
-  }
- 
-});*/
+

@@ -285,6 +285,18 @@ A function definition (also called a function declaration, or function statement
 </main>
 <!-- partial -->
   <script>
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+  // Update UI notify the user they can add to home screen]
+  console.log('rat')
+  if(prompt()){
+    showInstallPromotion();
+  }
+ 
+});
+
     if('serviceWorker' in navigator){
       navigator.serviceWorker.register('./sw.js')
       .catch(err=>console.log('An error occured'));
