@@ -70,7 +70,7 @@ if (workbox) {
   },
   {
     "url": "workbox-config.js",
-    "revision": "aea10a0bc0ef873297548372155b62c4"
+    "revision": "7a9521618c65919a1e533c52afe7547f"
   }
 ]);
 
