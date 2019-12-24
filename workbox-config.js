@@ -1,7 +1,7 @@
 module.exports = {
   "globDirectory": "./",
   "globPatterns": [
-    "**/*.{png,html,txt,json,markdown,css,js}"
+   
   ],
   "swDest": "sw.js",
   "swSrc": "swconfig.js",
@@ -9,3 +9,5 @@ module.exports = {
     "/workbox-config.js"
   ]
 };
+
+// "**/*.{png,txt,json,markdown,css,js}"
