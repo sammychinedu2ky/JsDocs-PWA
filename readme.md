@@ -1,7 +1,7 @@
 
 # JsDocs
 
-[![Solid]( https://priceless-wilson-cbf7e8.netlify.com/images/icons/icon-72x72.png)](priceless-wilson-cbf7e8.netlify.com)
+[![Solid]( https://jsdocs.com/images/icons/icon-72x72.png)](jsdocs.netlify.com)
 
 [![Build Status](https://www.netlify.com/img/global/badges/netlify-light.svg)](www.netlify.com)
 
