@@ -5,7 +5,7 @@
 
 [![Build Status](https://www.netlify.com/img/global/badges/netlify-light.svg)](www.netlify.com)
 
-This project illustrates web deployment using PWA techniques to powerup a webpage with caching abilities using sevice worker and a manifest file for installation.
+This project illustrates web deployment using PWA techniques to powerup a webpage with caching abilities using a service worker and manifest file for installation.
 
 This project contains a branch that details how to make this process easy using a tool called **"Service Worker"** .
 
