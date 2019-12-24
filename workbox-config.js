@@ -6,6 +6,6 @@ module.exports = {
   "swDest": "sw.js",
   "swSrc": "swconfig.js",
   "globIgnores": [
-    "../workbox-config.js"
+    "/workbox-config.js"
   ]
 };
